@@ -1,0 +1,54 @@
+header {
+  background-color: #01cdad;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-top: 36px;
+}
+
+.logoheader {
+  height: 74px;
+  padding-left: 36px;
+  display: flex;
+
+  align-self: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.texto1 {
+    width: 40%;
+    margin-top: 36px;
+    margin-left: 32px;
+    line-height: 40px;
+}
+
+h1 {
+  font-size: 48px;
+}
+.container1{
+    display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin-top: 36px;
+}
+.foto1 {
+  width: 50%;
+}
+.allergycard {
+  width: 100%;
+
+  object-fit: cover;
+}
